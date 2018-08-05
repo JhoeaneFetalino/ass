@@ -1,0 +1,48 @@
+﻿Name: Jhoeane Claire D. Fetalino
+Section: BSIE 1-5N
+
+#include <iostream>
+
+using namespace std;
+int main (){
+
+cout << "            •••Mucho's Hauz••• \n \n";
+cout << "Mucho's Best Sellers: \n \n";
+cout << "PASTAS \n";
+
+   int Carbonara = 50;
+   int Spaghetti = 55;
+   int Bakedmac = 60;
+   int Lasagna = 80;
+
+cout << endl << "Carbonara   ...............   " << Carbonara;
+cout << endl << "Spaghetti   ...............   " << Spaghetti;
+cout << endl << "Bakedmac    ...............   " << Bakedmac;
+cout << endl << "Lasagna     ...............   " << Lasagna;
+
+cout << endl << endl << "RICE MEALS \n";
+
+   int Tapsilog = 55;
+   int Tocilog = 55;
+   int Chicsilog = 60;
+   int Spamsilog = 50;
+
+cout << endl << "Tapsilog    ...............   " << Tapsilog;
+cout << endl << "Tocilog     ...............   " << Tocilog;
+cout << endl << "Chicsilog   ...............   " << Chicsilog;
+cout << endl << "Spamsilog   ...............   " << Spamsilog;                                                                                                                   
+
+cout << endl << endl << "LEMONADES \n";
+
+   int Cucumber = 55;
+   int Blue = 55;
+   int Pink = 60;
+
+cout << endl << "Cucumber    ...............   " << Cucumber;
+cout << endl << "Blue        ...............   " << Blue;
+cout << endl << "Pink        ...............   " << Pink;
+
+cout << endl << endl << "  ~THE BEST RESTAURANT IN PAKIL, LAGUNA~ \n";
+return 0;
+    
+}
