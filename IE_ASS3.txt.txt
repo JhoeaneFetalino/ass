@@ -1,0 +1,34 @@
+﻿Jhoeane Claire D. Fetalino
+BSIE 1-5N
+
+#include <iostream>
+using namespace std;
+int main(){
+
+int weight=0;
+int height=0;
+int BMI=0;
+
+cout << "Compute your Body Mass index using the following:" << endl; 
+
+cout << "Enter your weight in pounds (kg x 2.2lbs):";
+cin >> weight;
+cout << "Enter your height in inches:";
+cin >> height;
+cout << endl;
+
+BMI= (weight*703) / (height*height);
+
+cout << "Your Body Mass Index:" << BMI << endl << endl;
+
+cout << "Read your BMI:" << endl;
+cout << "Underweight = Below 18.5" << endl;
+cout << "Average = 18.5-24.9" << endl;
+cout << "Overweight = 25.0-29.9" << endl;
+cout << "Obese = 30 and above" << endl << endl;
+return 0;
+}
+
+    
+
+
