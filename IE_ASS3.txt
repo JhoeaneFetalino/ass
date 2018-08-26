@@ -1,0 +1,37 @@
+﻿Name: Jhoeane Claire D. Fetalino
+Section: BSIE 1-5N
+
+#include <iostream>
+using namespace std;
+int main(){
+
+int cs=0;
+int cmf=0;
+int flg=0;
+
+cout << "Compute your Final lecture grade in Chemistry:" << endl; 
+
+cout << "Enter your Class Standing Grade (100):";
+cin >> cs;
+cout << "Comprehensive Midterm and Final exam grade (100):";
+cin >> cmf;
+cout << endl;
+
+flg= (0.7 * cs) + (0.3 * cmf);
+
+cout << "Your Final lecture grade in Chemistry:" << flg << endl << endl;
+
+cout << "POLYTECHNIC UNIVERSITY OF THE PHILIPPINES' GRADING SYSTEM:" << endl;
+cout << "97-100 = 1.0" << endl;
+cout << "94-96 = 1.25" << endl;
+cout << "91-93 = 1.5" << endl;
+cout << "88-90 = 1.75" << endl;
+cout << "85-87 = 2.0" << endl;
+cout << "82-84 = 2.25" << endl;
+cout << "79-81= 2.5" << endl;
+cout << "76-78 = 2.75" << endl;
+cout << "75 = 3.0" << endl;
+cout << "65-74 = 5.0" << endl;
+
+return 0;
+}
